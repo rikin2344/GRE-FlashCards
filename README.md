@@ -1,4 +1,0 @@
-GRE-FlashCards
-==============
-
-XcodeGREFlashCards

@@ -1,0 +1,1332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC14D837197635F40069230C /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC14D833197635F40069230C /* AcousticModelEnglish.bundle */; };
+		EC14D838197635F40069230C /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC14D834197635F40069230C /* AcousticModelSpanish.bundle */; };
+		EC1CE56E1989BB6C00A789B1 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CE56D1989BB6C00A789B1 /* SignIn.swift */; };
+		EC1CE5701989C33300A789B1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1CE56F1989C33300A789B1 /* Parse.framework */; };
+		EC1CE5751989C3A500A789B1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1CE5741989C3A500A789B1 /* AudioToolbox.framework */; };
+		EC1CE5771989C3B400A789B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1CE5761989C3B400A789B1 /* CoreGraphics.framework */; };
+		EC1CE5791989C3BB00A789B1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1CE5781989C3BB00A789B1 /* CoreLocation.framework */; };
+		EC1CE57B1989C3C500A789B1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1CE57A1989C3C500A789B1 /* libz.dylib */; };
+		EC1CE57D1989C3CF00A789B1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1CE57C1989C3CF00A789B1 /* MobileCoreServices.framework */; };
+		EC1CE57F1989C3D900A789B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1CE57E1989C3D900A789B1 /* QuartzCore.framework */; };
+		EC1CE5811989C3E300A789B1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1CE5801989C3E300A789B1 /* Security.framework */; };
+		EC1CE5831989C3EB00A789B1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1CE5821989C3EB00A789B1 /* StoreKit.framework */; };
+		EC1CE5851989C3F500A789B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1CE5841989C3F500A789B1 /* SystemConfiguration.framework */; };
+		EC1CE5871989CA1700A789B1 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CE5861989CA1700A789B1 /* SignUp.swift */; };
+		EC35E949196E72B800CB084F /* FlashCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35E948196E72B800CB084F /* FlashCards.swift */; };
+		EC35E94B196F31F000CB084F /* searchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35E94A196F31F000CB084F /* searchView.swift */; };
+		EC35E94E196F3A4000CB084F /* searchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35E94C196F3A4000CB084F /* searchResultTableViewCell.swift */; };
+		EC35E94F196F3A4000CB084F /* searchViewNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC35E94D196F3A4000CB084F /* searchViewNib.xib */; };
+		EC35E951196F4FD500CB084F /* difficultWordsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35E950196F4FD500CB084F /* difficultWordsTable.swift */; };
+		EC35E953196F56EC00CB084F /* fromDifficultWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35E952196F56EC00CB084F /* fromDifficultWords.swift */; };
+		EC35E955196F896900CB084F /* progressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35E954196F896900CB084F /* progressView.swift */; };
+		EC35E958196F9FF000CB084F /* QuizMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35E957196F9FF000CB084F /* QuizMaker.swift */; };
+		EC35E95A196FA04100CB084F /* selectSetForQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35E959196FA04100CB084F /* selectSetForQuiz.swift */; };
+		EC35E95C1970626100CB084F /* QuizTaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35E95B1970626100CB084F /* QuizTaker.swift */; };
+		EC35E95E19707BE900CB084F /* quizResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35E95D19707BE900CB084F /* quizResult.swift */; };
+		EC3ADB6D196E14050038BB0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3ADB6C196E14050038BB0D /* AppDelegate.swift */; };
+		EC3ADB70196E14050038BB0D /* FlashCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC3ADB6E196E14050038BB0D /* FlashCard.xcdatamodeld */; };
+		EC3ADB75196E14050038BB0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3ADB73196E14050038BB0D /* Main.storyboard */; };
+		EC3ADB77196E14050038BB0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3ADB76196E14050038BB0D /* Images.xcassets */; };
+		EC3ADB83196E14050038BB0D /* FlashCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3ADB82196E14050038BB0D /* FlashCardTests.swift */; };
+		EC3ADB8D196E14F40038BB0D /* allWords.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC3ADB8C196E14F40038BB0D /* allWords.txt */; };
+		EC3ADB8F196E150B0038BB0D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3ADB8E196E150B0038BB0D /* DataManager.swift */; };
+		EC3ADB91196E5D3F0038BB0D /* Trial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3ADB90196E5D3F0038BB0D /* Trial.swift */; };
+		EC3ADB93196E5D6A0038BB0D /* AddEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3ADB92196E5D6A0038BB0D /* AddEffect.swift */; };
+		EC42E829197C5C1E00D23363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD26D7A1974C4CD00E6B429 /* Foundation.framework */; };
+		EC51FC081982267200E1F26E /* GoogleWearAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51FC061982267200E1F26E /* GoogleWearAlert.swift */; };
+		EC51FC091982267200E1F26E /* GoogleWearAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51FC071982267200E1F26E /* GoogleWearAlertView.swift */; };
+		EC51FC0E1982267E00E1F26E /* errorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC51FC0A1982267E00E1F26E /* errorIcon@2x.png */; };
+		EC51FC0F1982267E00E1F26E /* messageIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC51FC0B1982267E00E1F26E /* messageIcon@2x.png */; };
+		EC51FC101982267E00E1F26E /* successIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC51FC0C1982267E00E1F26E /* successIcon@2x.png */; };
+		EC51FC111982267E00E1F26E /* warningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC51FC0D1982267E00E1F26E /* warningIcon@2x.png */; };
+		EC53E605198DCB17003C41EB /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53E604198DCB17003C41EB /* ComposeViewController.swift */; };
+		EC53E608198DE56A003C41EB /* SweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53E607198DE569003C41EB /* SweetTableViewCell.swift */; };
+		EC7D74D519A005CE002ECEFF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7D74D419A005CE002ECEFF /* Reachability.m */; };
+		EC83A47319BCF58700FCBE92 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83A47119BCF58700FCBE92 /* SideMenu.swift */; };
+		EC83A47419BCF58700FCBE92 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83A47219BCF58700FCBE92 /* MenuTableViewController.swift */; };
+		EC962F9519BE933C009DFF14 /* babble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1019BE933B009DFF14 /* babble.jpg */; };
+		EC962F9619BE933C009DFF14 /* bacchanalian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1119BE933B009DFF14 /* bacchanalian.jpg */; };
+		EC962F9719BE933C009DFF14 /* badger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1219BE933B009DFF14 /* badger.jpg */; };
+		EC962F9819BE933C009DFF14 /* badinage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1319BE933B009DFF14 /* badinage.jpg */; };
+		EC962F9919BE933C009DFF14 /* baffle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1419BE933B009DFF14 /* baffle.jpg */; };
+		EC962F9A19BE933C009DFF14 /* bait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1519BE933B009DFF14 /* bait.jpg */; };
+		EC962F9B19BE933C009DFF14 /* baleful.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1619BE933B009DFF14 /* baleful.jpg */; };
+		EC962F9C19BE933C009DFF14 /* balk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1719BE933B009DFF14 /* balk.jpg */; };
+		EC962F9D19BE933C009DFF14 /* ballast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1819BE933B009DFF14 /* ballast.jpg */; };
+		EC962F9E19BE933C009DFF14 /* balm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1919BE933B009DFF14 /* balm.jpg */; };
+		EC962F9F19BE933C009DFF14 /* balmy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1A19BE933B009DFF14 /* balmy.jpg */; };
+		EC962FA019BE933C009DFF14 /* banal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1B19BE933B009DFF14 /* banal.jpg */; };
+		EC962FA119BE933C009DFF14 /* bandy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1C19BE933B009DFF14 /* bandy.jpg */; };
+		EC962FA219BE933C009DFF14 /* bane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1D19BE933B009DFF14 /* bane.jpg */; };
+		EC962FA319BE933C009DFF14 /* bantering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1E19BE933B009DFF14 /* bantering.jpg */; };
+		EC962FA419BE933C009DFF14 /* barb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F1F19BE933B009DFF14 /* barb.jpg */; };
+		EC962FA519BE933C009DFF14 /* bard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2019BE933B009DFF14 /* bard.jpg */; };
+		EC962FA619BE933C009DFF14 /* barefaced.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2119BE933B009DFF14 /* barefaced.jpg */; };
+		EC962FA719BE933C009DFF14 /* baroque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2219BE933B009DFF14 /* baroque.jpg */; };
+		EC962FA819BE933C009DFF14 /* barrage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2319BE933B009DFF14 /* barrage.jpg */; };
+		EC962FA919BE933C009DFF14 /* barrister.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2419BE933B009DFF14 /* barrister.jpg */; };
+		EC962FAA19BE933C009DFF14 /* barterer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2519BE933B009DFF14 /* barterer.jpg */; };
+		EC962FAB19BE933C009DFF14 /* bask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2619BE933B009DFF14 /* bask.jpg */; };
+		EC962FAC19BE933C009DFF14 /* bastion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2719BE933B009DFF14 /* bastion.jpg */; };
+		EC962FAD19BE933C009DFF14 /* bate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2819BE933B009DFF14 /* bate.jpg */; };
+		EC962FAE19BE933C009DFF14 /* bauble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2919BE933B009DFF14 /* bauble.jpg */; };
+		EC962FAF19BE933C009DFF14 /* bawdy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2A19BE933B009DFF14 /* bawdy.jpg */; };
+		EC962FB019BE933C009DFF14 /* beatific.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2B19BE933B009DFF14 /* beatific.jpg */; };
+		EC962FB119BE933C009DFF14 /* beatitude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2C19BE933B009DFF14 /* beatitude.jpg */; };
+		EC962FB219BE933C009DFF14 /* bedizen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2D19BE933C009DFF14 /* bedizen.jpg */; };
+		EC962FB319BE933C009DFF14 /* bedraggle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2E19BE933C009DFF14 /* bedraggle.jpg */; };
+		EC962FB419BE933C009DFF14 /* befuddle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F2F19BE933C009DFF14 /* befuddle.jpg */; };
+		EC962FB519BE933C009DFF14 /* beget.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3019BE933C009DFF14 /* beget.jpg */; };
+		EC962FB619BE933C009DFF14 /* begrudge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3119BE933C009DFF14 /* begrudge.jpg */; };
+		EC962FB719BE933C009DFF14 /* beguile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3219BE933C009DFF14 /* beguile.jpg */; };
+		EC962FB819BE933C009DFF14 /* behemoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3319BE933C009DFF14 /* behemoth.jpg */; };
+		EC962FB919BE933C009DFF14 /* beholden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3419BE933C009DFF14 /* beholden.jpg */; };
+		EC962FBA19BE933C009DFF14 /* behoove.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3519BE933C009DFF14 /* behoove.jpg */; };
+		EC962FBB19BE933C009DFF14 /* belabor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3619BE933C009DFF14 /* belabor.jpg */; };
+		EC962FBC19BE933C009DFF14 /* belated.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3719BE933C009DFF14 /* belated.jpg */; };
+		EC962FBD19BE933C009DFF14 /* beleaguer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3819BE933C009DFF14 /* beleaguer.jpg */; };
+		EC962FBE19BE933C009DFF14 /* belie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3919BE933C009DFF14 /* belie.jpg */; };
+		EC962FBF19BE933C009DFF14 /* belittle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3A19BE933C009DFF14 /* belittle.jpg */; };
+		EC962FC019BE933C009DFF14 /* bellicose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3B19BE933C009DFF14 /* bellicose.jpg */; };
+		EC962FC119BE933C009DFF14 /* belligerent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3C19BE933C009DFF14 /* belligerent.jpg */; };
+		EC962FC219BE933C009DFF14 /* bemused.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3D19BE933C009DFF14 /* bemused.jpg */; };
+		EC962FC319BE933C009DFF14 /* benediction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3E19BE933C009DFF14 /* benediction.jpg */; };
+		EC962FC419BE933C009DFF14 /* benefactor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F3F19BE933C009DFF14 /* benefactor.jpg */; };
+		EC962FC519BE933C009DFF14 /* beneficiary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4019BE933C009DFF14 /* beneficiary.jpg */; };
+		EC962FC619BE933C009DFF14 /* beneficient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4119BE933C009DFF14 /* beneficient.jpg */; };
+		EC962FC719BE933C009DFF14 /* benevolent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4219BE933C009DFF14 /* benevolent.jpg */; };
+		EC962FC819BE933C009DFF14 /* benign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4319BE933C009DFF14 /* benign.jpg */; };
+		EC962FC919BE933C009DFF14 /* benison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4419BE933C009DFF14 /* benison.jpg */; };
+		EC962FCA19BE933C009DFF14 /* bent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4519BE933C009DFF14 /* bent.jpg */; };
+		EC962FCB19BE933C009DFF14 /* bequeath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4619BE933C009DFF14 /* bequeath.jpg */; };
+		EC962FCC19BE933C009DFF14 /* berate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4719BE933C009DFF14 /* berate.jpg */; };
+		EC962FCD19BE933C009DFF14 /* bereavement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4819BE933C009DFF14 /* bereavement.jpg */; };
+		EC962FCE19BE933C009DFF14 /* bereft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4919BE933C009DFF14 /* bereft.jpg */; };
+		EC962FCF19BE933C009DFF14 /* berserk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4A19BE933C009DFF14 /* berserk.jpg */; };
+		EC962FD019BE933C009DFF14 /* beset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4B19BE933C009DFF14 /* beset.jpg */; };
+		EC962FD119BE933C009DFF14 /* besmirch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4C19BE933C009DFF14 /* besmirch.jpg */; };
+		EC962FD219BE933C009DFF14 /* bestial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4D19BE933C009DFF14 /* bestial.jpg */; };
+		EC962FD319BE933C009DFF14 /* bestow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4E19BE933C009DFF14 /* bestow.jpg */; };
+		EC962FD419BE933C009DFF14 /* betroth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F4F19BE933C009DFF14 /* betroth.jpg */; };
+		EC962FD519BE933C009DFF14 /* bevy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5019BE933C009DFF14 /* bevy.jpg */; };
+		EC962FD619BE933C009DFF14 /* bicameral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5119BE933C009DFF14 /* bicameral.jpg */; };
+		EC962FD719BE933C009DFF14 /* bicker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5219BE933C009DFF14 /* bicker.jpg */; };
+		EC962FD819BE933C009DFF14 /* biennial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5319BE933C009DFF14 /* biennial.jpg */; };
+		EC962FD919BE933C009DFF14 /* bifurcated.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5419BE933C009DFF14 /* bifurcated.jpg */; };
+		EC962FDA19BE933C009DFF14 /* bigotry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5519BE933C009DFF14 /* bigotry.jpg */; };
+		EC962FDB19BE933C009DFF14 /* bilious.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5619BE933C009DFF14 /* bilious.jpg */; };
+		EC962FDC19BE933C009DFF14 /* bilk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5719BE933C009DFF14 /* bilk.jpg */; };
+		EC962FDD19BE933C009DFF14 /* bivouac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5819BE933C009DFF14 /* bivouac.jpg */; };
+		EC962FDE19BE933C009DFF14 /* bizarre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5919BE933C009DFF14 /* bizarre.jpg */; };
+		EC962FDF19BE933C009DFF14 /* blanch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5A19BE933C009DFF14 /* blanch.jpg */; };
+		EC962FE019BE933C009DFF14 /* bland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5B19BE933C009DFF14 /* bland.jpg */; };
+		EC962FE119BE933C009DFF14 /* blandishment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5C19BE933C009DFF14 /* blandishment.jpg */; };
+		EC962FE219BE933C009DFF14 /* blase.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5D19BE933C009DFF14 /* blase.jpg */; };
+		EC962FE319BE933C009DFF14 /* blasphemous.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5E19BE933C009DFF14 /* blasphemous.jpg */; };
+		EC962FE419BE933C009DFF14 /* blatant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F5F19BE933C009DFF14 /* blatant.jpg */; };
+		EC962FE519BE933C009DFF14 /* bleak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6019BE933C009DFF14 /* bleak.jpg */; };
+		EC962FE619BE933C009DFF14 /* blighted.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6119BE933C009DFF14 /* blighted.jpg */; };
+		EC962FE719BE933C009DFF14 /* blithe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6219BE933C009DFF14 /* blithe.jpg */; };
+		EC962FE819BE933C009DFF14 /* bloated.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6319BE933C009DFF14 /* bloated.jpg */; };
+		EC962FE919BE933C009DFF14 /* blowhard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6419BE933C009DFF14 /* blowhard.jpg */; };
+		EC962FEA19BE933C009DFF14 /* bludgeon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6519BE933C009DFF14 /* bludgeon.jpg */; };
+		EC962FEB19BE933C009DFF14 /* bluff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6619BE933C009DFF14 /* bluff.jpg */; };
+		EC962FEC19BE933C009DFF14 /* blunder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6719BE933C009DFF14 /* blunder.jpg */; };
+		EC962FED19BE933C009DFF14 /* blurt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6819BE933C009DFF14 /* blurt.jpg */; };
+		EC962FEE19BE933C009DFF14 /* bode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6919BE933C009DFF14 /* bode.jpg */; };
+		EC962FEF19BE933C009DFF14 /* bogus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6A19BE933C009DFF14 /* bogus.jpg */; };
+		EC962FF019BE933C009DFF14 /* boisterous.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6B19BE933C009DFF14 /* boisterous.jpg */; };
+		EC962FF119BE933C009DFF14 /* bolster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6C19BE933C009DFF14 /* bolster.jpg */; };
+		EC962FF219BE933C009DFF14 /* bombast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6D19BE933C009DFF14 /* bombast.jpg */; };
+		EC962FF319BE933C009DFF14 /* boon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6E19BE933C009DFF14 /* boon.jpg */; };
+		EC962FF419BE933C009DFF14 /* boorish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F6F19BE933C009DFF14 /* boorish.jpg */; };
+		EC962FF519BE933C009DFF14 /* bouillon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7019BE933C009DFF14 /* bouillon.jpg */; };
+		EC962FF619BE933C009DFF14 /* bountiful.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7119BE933C009DFF14 /* bountiful.jpg */; };
+		EC962FF719BE933C009DFF14 /* bourgeois.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7219BE933C009DFF14 /* bourgeois.jpg */; };
+		EC962FF819BE933C009DFF14 /* bovine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7319BE933C009DFF14 /* bovine.jpg */; };
+		EC962FF919BE933C009DFF14 /* bowdlerize.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7419BE933C009DFF14 /* bowdlerize.jpg */; };
+		EC962FFA19BE933C009DFF14 /* brackish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7519BE933C009DFF14 /* brackish.jpg */; };
+		EC962FFB19BE933C009DFF14 /* braggadocio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7619BE933C009DFF14 /* braggadocio.jpg */; };
+		EC962FFC19BE933C009DFF14 /* braggart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7719BE933C009DFF14 /* braggart.jpg */; };
+		EC962FFD19BE933C009DFF14 /* bravado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7819BE933C009DFF14 /* bravado.jpg */; };
+		EC962FFE19BE933C009DFF14 /* brawn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7919BE933C009DFF14 /* brawn.jpg */; };
+		EC962FFF19BE933C009DFF14 /* brazen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7A19BE933C009DFF14 /* brazen.jpg */; };
+		EC96300019BE933C009DFF14 /* breach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7B19BE933C009DFF14 /* breach.jpg */; };
+		EC96300119BE933C009DFF14 /* breadth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7C19BE933C009DFF14 /* breadth.jpg */; };
+		EC96300219BE933C009DFF14 /* brevity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7D19BE933C009DFF14 /* brevity.jpg */; };
+		EC96300319BE933C009DFF14 /* brindled.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7E19BE933C009DFF14 /* brindled.jpg */; };
+		EC96300419BE933C009DFF14 /* bristling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F7F19BE933C009DFF14 /* bristling.jpg */; };
+		EC96300519BE933C009DFF14 /* brittle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8019BE933C009DFF14 /* brittle.jpg */; };
+		EC96300619BE933C009DFF14 /* broach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8119BE933C009DFF14 /* broach.jpg */; };
+		EC96300719BE933C009DFF14 /* brocade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8219BE933C009DFF14 /* brocade.jpg */; };
+		EC96300819BE933C009DFF14 /* brochure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8319BE933C009DFF14 /* brochure.jpg */; };
+		EC96300919BE933C009DFF14 /* brooch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8419BE933C009DFF14 /* brooch.jpg */; };
+		EC96300A19BE933C009DFF14 /* brook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8519BE933C009DFF14 /* brook.jpg */; };
+		EC96300B19BE933C009DFF14 /* browbeat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8619BE933C009DFF14 /* browbeat.jpg */; };
+		EC96300C19BE933C009DFF14 /* brusque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8719BE933C009DFF14 /* brusque.jpg */; };
+		EC96300D19BE933C009DFF14 /* bucolic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8819BE933C009DFF14 /* bucolic.jpg */; };
+		EC96300E19BE933C009DFF14 /* buffoonery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8919BE933C009DFF14 /* buffoonery.jpg */; };
+		EC96300F19BE933C009DFF14 /* bugaboo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8A19BE933C009DFF14 /* bugaboo.jpg */; };
+		EC96301019BE933C009DFF14 /* bullion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8B19BE933C009DFF14 /* bullion.jpg */; };
+		EC96301119BE933C009DFF14 /* bulwark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8C19BE933C009DFF14 /* bulwark.jpg */; };
+		EC96301219BE933C009DFF14 /* bungle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8D19BE933C009DFF14 /* bungle.jpg */; };
+		EC96301319BE933C009DFF14 /* bureaucracy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8E19BE933C009DFF14 /* bureaucracy.jpg */; };
+		EC96301419BE933C009DFF14 /* burgeon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F8F19BE933C009DFF14 /* burgeon.jpg */; };
+		EC96301519BE933C009DFF14 /* burlesque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F9019BE933C009DFF14 /* burlesque.jpg */; };
+		EC96301619BE933C009DFF14 /* burly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F9119BE933C009DFF14 /* burly.jpg */; };
+		EC96301719BE933C009DFF14 /* burnish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F9219BE933C009DFF14 /* burnish.jpg */; };
+		EC96301819BE933C009DFF14 /* buttress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F9319BE933C009DFF14 /* buttress.jpg */; };
+		EC96301919BE933C009DFF14 /* buxom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC962F9419BE933C009DFF14 /* buxom.jpg */; };
+		ECA60203199AE1720065C687 /* 1-iPhone-5S-wallpaper-HD-landscapes-nature-photography-snow-mountain-27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECA60202199AE1720065C687 /* 1-iPhone-5S-wallpaper-HD-landscapes-nature-photography-snow-mountain-27.jpg */; };
+		ECA60205199AE3000065C687 /* 2-red-yellow-flash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECA60204199AE3000065C687 /* 2-red-yellow-flash.jpg */; };
+		ECA60207199AE8610065C687 /* flash2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECA60206199AE8610065C687 /* flash2.jpg */; };
+		ECA60209199AE8F50065C687 /* cancel50.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA60208199AE8F50065C687 /* cancel50.png */; };
+		ECC14860198B649A0023809A /* AFViewShaker.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC1485F198B649A0023809A /* AFViewShaker.m */; };
+		ECCB7635198AFCB900B70D63 /* MGFashionMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB7634198AFCB900B70D63 /* MGFashionMenuView.m */; };
+		ECD26D7D1974C4D600E6B429 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD26D7C1974C4D600E6B429 /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ECD26D7F1974C4E300E6B429 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD26D7E1974C4E300E6B429 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		ECF660B219A7FCDE005F83E6 /* TimeLineTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF660B119A7FCDE005F83E6 /* TimeLineTable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC3ADB7D196E14050038BB0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3ADB5F196E14050038BB0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3ADB66196E14050038BB0D;
+			remoteInfo = FlashCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC14D833197635F40069230C /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		EC14D834197635F40069230C /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		EC14D835197635F40069230C /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		EC14D836197635F40069230C /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		EC1CE56D1989BB6C00A789B1 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignIn.swift; path = ../SignIn.swift; sourceTree = "<group>"; };
+		EC1CE56F1989C33300A789B1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EC1CE5711989C35500A789B1 /* FlashCard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCard-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		EC1CE5741989C3A500A789B1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EC1CE5761989C3B400A789B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC1CE5781989C3BB00A789B1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EC1CE57A1989C3C500A789B1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EC1CE57C1989C3CF00A789B1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EC1CE57E1989C3D900A789B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC1CE5801989C3E300A789B1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EC1CE5821989C3EB00A789B1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EC1CE5841989C3F500A789B1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EC1CE5861989CA1700A789B1 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUp.swift; path = ../SignUp.swift; sourceTree = "<group>"; };
+		EC35E948196E72B800CB084F /* FlashCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCards.swift; sourceTree = "<group>"; };
+		EC35E94A196F31F000CB084F /* searchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchView.swift; sourceTree = "<group>"; };
+		EC35E94C196F3A4000CB084F /* searchResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchResultTableViewCell.swift; sourceTree = "<group>"; };
+		EC35E94D196F3A4000CB084F /* searchViewNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = searchViewNib.xib; sourceTree = "<group>"; };
+		EC35E950196F4FD500CB084F /* difficultWordsTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = difficultWordsTable.swift; sourceTree = "<group>"; };
+		EC35E952196F56EC00CB084F /* fromDifficultWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fromDifficultWords.swift; sourceTree = "<group>"; };
+		EC35E954196F896900CB084F /* progressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = progressView.swift; sourceTree = "<group>"; };
+		EC35E956196F9FF000CB084F /* QuizMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizMaker.h; sourceTree = "<group>"; };
+		EC35E957196F9FF000CB084F /* QuizMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizMaker.swift; sourceTree = "<group>"; };
+		EC35E959196FA04100CB084F /* selectSetForQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectSetForQuiz.swift; sourceTree = "<group>"; };
+		EC35E95B1970626100CB084F /* QuizTaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTaker.swift; sourceTree = "<group>"; };
+		EC35E95D19707BE900CB084F /* quizResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quizResult.swift; sourceTree = "<group>"; };
+		EC3ADB67196E14050038BB0D /* FlashCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3ADB6B196E14050038BB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3ADB6C196E14050038BB0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC3ADB6F196E14050038BB0D /* FlashCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlashCard.xcdatamodel; sourceTree = "<group>"; };
+		EC3ADB74196E14050038BB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC3ADB76196E14050038BB0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC3ADB7C196E14050038BB0D /* FlashCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3ADB81196E14050038BB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3ADB82196E14050038BB0D /* FlashCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardTests.swift; sourceTree = "<group>"; };
+		EC3ADB8C196E14F40038BB0D /* allWords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = allWords.txt; sourceTree = "<group>"; };
+		EC3ADB8E196E150B0038BB0D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EC3ADB90196E5D3F0038BB0D /* Trial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trial.swift; sourceTree = "<group>"; };
+		EC3ADB92196E5D6A0038BB0D /* AddEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEffect.swift; sourceTree = "<group>"; };
+		EC51FC061982267200E1F26E /* GoogleWearAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleWearAlert.swift; sourceTree = "<group>"; };
+		EC51FC071982267200E1F26E /* GoogleWearAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleWearAlertView.swift; sourceTree = "<group>"; };
+		EC51FC0A1982267E00E1F26E /* errorIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "errorIcon@2x.png"; sourceTree = "<group>"; };
+		EC51FC0B1982267E00E1F26E /* messageIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messageIcon@2x.png"; sourceTree = "<group>"; };
+		EC51FC0C1982267E00E1F26E /* successIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "successIcon@2x.png"; sourceTree = "<group>"; };
+		EC51FC0D1982267E00E1F26E /* warningIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warningIcon@2x.png"; sourceTree = "<group>"; };
+		EC53E604198DCB17003C41EB /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		EC53E607198DE569003C41EB /* SweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTableViewCell.swift; sourceTree = "<group>"; };
+		EC7D74D319A005CE002ECEFF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EC7D74D419A005CE002ECEFF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EC83A47119BCF58700FCBE92 /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		EC83A47219BCF58700FCBE92 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		EC962F1019BE933B009DFF14 /* babble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = babble.jpg; sourceTree = "<group>"; };
+		EC962F1119BE933B009DFF14 /* bacchanalian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bacchanalian.jpg; sourceTree = "<group>"; };
+		EC962F1219BE933B009DFF14 /* badger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = badger.jpg; sourceTree = "<group>"; };
+		EC962F1319BE933B009DFF14 /* badinage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = badinage.jpg; sourceTree = "<group>"; };
+		EC962F1419BE933B009DFF14 /* baffle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baffle.jpg; sourceTree = "<group>"; };
+		EC962F1519BE933B009DFF14 /* bait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bait.jpg; sourceTree = "<group>"; };
+		EC962F1619BE933B009DFF14 /* baleful.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baleful.jpg; sourceTree = "<group>"; };
+		EC962F1719BE933B009DFF14 /* balk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balk.jpg; sourceTree = "<group>"; };
+		EC962F1819BE933B009DFF14 /* ballast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ballast.jpg; sourceTree = "<group>"; };
+		EC962F1919BE933B009DFF14 /* balm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balm.jpg; sourceTree = "<group>"; };
+		EC962F1A19BE933B009DFF14 /* balmy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balmy.jpg; sourceTree = "<group>"; };
+		EC962F1B19BE933B009DFF14 /* banal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banal.jpg; sourceTree = "<group>"; };
+		EC962F1C19BE933B009DFF14 /* bandy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bandy.jpg; sourceTree = "<group>"; };
+		EC962F1D19BE933B009DFF14 /* bane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bane.jpg; sourceTree = "<group>"; };
+		EC962F1E19BE933B009DFF14 /* bantering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bantering.jpg; sourceTree = "<group>"; };
+		EC962F1F19BE933B009DFF14 /* barb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barb.jpg; sourceTree = "<group>"; };
+		EC962F2019BE933B009DFF14 /* bard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bard.jpg; sourceTree = "<group>"; };
+		EC962F2119BE933B009DFF14 /* barefaced.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barefaced.jpg; sourceTree = "<group>"; };
+		EC962F2219BE933B009DFF14 /* baroque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baroque.jpg; sourceTree = "<group>"; };
+		EC962F2319BE933B009DFF14 /* barrage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barrage.jpg; sourceTree = "<group>"; };
+		EC962F2419BE933B009DFF14 /* barrister.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barrister.jpg; sourceTree = "<group>"; };
+		EC962F2519BE933B009DFF14 /* barterer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barterer.jpg; sourceTree = "<group>"; };
+		EC962F2619BE933B009DFF14 /* bask.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bask.jpg; sourceTree = "<group>"; };
+		EC962F2719BE933B009DFF14 /* bastion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bastion.jpg; sourceTree = "<group>"; };
+		EC962F2819BE933B009DFF14 /* bate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bate.jpg; sourceTree = "<group>"; };
+		EC962F2919BE933B009DFF14 /* bauble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bauble.jpg; sourceTree = "<group>"; };
+		EC962F2A19BE933B009DFF14 /* bawdy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bawdy.jpg; sourceTree = "<group>"; };
+		EC962F2B19BE933B009DFF14 /* beatific.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beatific.jpg; sourceTree = "<group>"; };
+		EC962F2C19BE933B009DFF14 /* beatitude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beatitude.jpg; sourceTree = "<group>"; };
+		EC962F2D19BE933C009DFF14 /* bedizen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bedizen.jpg; sourceTree = "<group>"; };
+		EC962F2E19BE933C009DFF14 /* bedraggle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bedraggle.jpg; sourceTree = "<group>"; };
+		EC962F2F19BE933C009DFF14 /* befuddle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = befuddle.jpg; sourceTree = "<group>"; };
+		EC962F3019BE933C009DFF14 /* beget.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beget.jpg; sourceTree = "<group>"; };
+		EC962F3119BE933C009DFF14 /* begrudge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = begrudge.jpg; sourceTree = "<group>"; };
+		EC962F3219BE933C009DFF14 /* beguile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beguile.jpg; sourceTree = "<group>"; };
+		EC962F3319BE933C009DFF14 /* behemoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = behemoth.jpg; sourceTree = "<group>"; };
+		EC962F3419BE933C009DFF14 /* beholden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beholden.jpg; sourceTree = "<group>"; };
+		EC962F3519BE933C009DFF14 /* behoove.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = behoove.jpg; sourceTree = "<group>"; };
+		EC962F3619BE933C009DFF14 /* belabor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = belabor.jpg; sourceTree = "<group>"; };
+		EC962F3719BE933C009DFF14 /* belated.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = belated.jpg; sourceTree = "<group>"; };
+		EC962F3819BE933C009DFF14 /* beleaguer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beleaguer.jpg; sourceTree = "<group>"; };
+		EC962F3919BE933C009DFF14 /* belie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = belie.jpg; sourceTree = "<group>"; };
+		EC962F3A19BE933C009DFF14 /* belittle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = belittle.jpg; sourceTree = "<group>"; };
+		EC962F3B19BE933C009DFF14 /* bellicose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bellicose.jpg; sourceTree = "<group>"; };
+		EC962F3C19BE933C009DFF14 /* belligerent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = belligerent.jpg; sourceTree = "<group>"; };
+		EC962F3D19BE933C009DFF14 /* bemused.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bemused.jpg; sourceTree = "<group>"; };
+		EC962F3E19BE933C009DFF14 /* benediction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benediction.jpg; sourceTree = "<group>"; };
+		EC962F3F19BE933C009DFF14 /* benefactor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benefactor.jpg; sourceTree = "<group>"; };
+		EC962F4019BE933C009DFF14 /* beneficiary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beneficiary.jpg; sourceTree = "<group>"; };
+		EC962F4119BE933C009DFF14 /* beneficient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beneficient.jpg; sourceTree = "<group>"; };
+		EC962F4219BE933C009DFF14 /* benevolent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benevolent.jpg; sourceTree = "<group>"; };
+		EC962F4319BE933C009DFF14 /* benign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benign.jpg; sourceTree = "<group>"; };
+		EC962F4419BE933C009DFF14 /* benison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benison.jpg; sourceTree = "<group>"; };
+		EC962F4519BE933C009DFF14 /* bent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bent.jpg; sourceTree = "<group>"; };
+		EC962F4619BE933C009DFF14 /* bequeath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bequeath.jpg; sourceTree = "<group>"; };
+		EC962F4719BE933C009DFF14 /* berate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berate.jpg; sourceTree = "<group>"; };
+		EC962F4819BE933C009DFF14 /* bereavement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bereavement.jpg; sourceTree = "<group>"; };
+		EC962F4919BE933C009DFF14 /* bereft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bereft.jpg; sourceTree = "<group>"; };
+		EC962F4A19BE933C009DFF14 /* berserk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berserk.jpg; sourceTree = "<group>"; };
+		EC962F4B19BE933C009DFF14 /* beset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beset.jpg; sourceTree = "<group>"; };
+		EC962F4C19BE933C009DFF14 /* besmirch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = besmirch.jpg; sourceTree = "<group>"; };
+		EC962F4D19BE933C009DFF14 /* bestial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bestial.jpg; sourceTree = "<group>"; };
+		EC962F4E19BE933C009DFF14 /* bestow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bestow.jpg; sourceTree = "<group>"; };
+		EC962F4F19BE933C009DFF14 /* betroth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = betroth.jpg; sourceTree = "<group>"; };
+		EC962F5019BE933C009DFF14 /* bevy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bevy.jpg; sourceTree = "<group>"; };
+		EC962F5119BE933C009DFF14 /* bicameral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bicameral.jpg; sourceTree = "<group>"; };
+		EC962F5219BE933C009DFF14 /* bicker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bicker.jpg; sourceTree = "<group>"; };
+		EC962F5319BE933C009DFF14 /* biennial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biennial.jpg; sourceTree = "<group>"; };
+		EC962F5419BE933C009DFF14 /* bifurcated.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bifurcated.jpg; sourceTree = "<group>"; };
+		EC962F5519BE933C009DFF14 /* bigotry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigotry.jpg; sourceTree = "<group>"; };
+		EC962F5619BE933C009DFF14 /* bilious.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bilious.jpg; sourceTree = "<group>"; };
+		EC962F5719BE933C009DFF14 /* bilk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bilk.jpg; sourceTree = "<group>"; };
+		EC962F5819BE933C009DFF14 /* bivouac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bivouac.jpg; sourceTree = "<group>"; };
+		EC962F5919BE933C009DFF14 /* bizarre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bizarre.jpg; sourceTree = "<group>"; };
+		EC962F5A19BE933C009DFF14 /* blanch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blanch.jpg; sourceTree = "<group>"; };
+		EC962F5B19BE933C009DFF14 /* bland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bland.jpg; sourceTree = "<group>"; };
+		EC962F5C19BE933C009DFF14 /* blandishment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blandishment.jpg; sourceTree = "<group>"; };
+		EC962F5D19BE933C009DFF14 /* blase.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blase.jpg; sourceTree = "<group>"; };
+		EC962F5E19BE933C009DFF14 /* blasphemous.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blasphemous.jpg; sourceTree = "<group>"; };
+		EC962F5F19BE933C009DFF14 /* blatant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blatant.jpg; sourceTree = "<group>"; };
+		EC962F6019BE933C009DFF14 /* bleak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bleak.jpg; sourceTree = "<group>"; };
+		EC962F6119BE933C009DFF14 /* blighted.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blighted.jpg; sourceTree = "<group>"; };
+		EC962F6219BE933C009DFF14 /* blithe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blithe.jpg; sourceTree = "<group>"; };
+		EC962F6319BE933C009DFF14 /* bloated.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bloated.jpg; sourceTree = "<group>"; };
+		EC962F6419BE933C009DFF14 /* blowhard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blowhard.jpg; sourceTree = "<group>"; };
+		EC962F6519BE933C009DFF14 /* bludgeon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bludgeon.jpg; sourceTree = "<group>"; };
+		EC962F6619BE933C009DFF14 /* bluff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bluff.jpg; sourceTree = "<group>"; };
+		EC962F6719BE933C009DFF14 /* blunder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blunder.jpg; sourceTree = "<group>"; };
+		EC962F6819BE933C009DFF14 /* blurt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurt.jpg; sourceTree = "<group>"; };
+		EC962F6919BE933C009DFF14 /* bode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bode.jpg; sourceTree = "<group>"; };
+		EC962F6A19BE933C009DFF14 /* bogus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bogus.jpg; sourceTree = "<group>"; };
+		EC962F6B19BE933C009DFF14 /* boisterous.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boisterous.jpg; sourceTree = "<group>"; };
+		EC962F6C19BE933C009DFF14 /* bolster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bolster.jpg; sourceTree = "<group>"; };
+		EC962F6D19BE933C009DFF14 /* bombast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bombast.jpg; sourceTree = "<group>"; };
+		EC962F6E19BE933C009DFF14 /* boon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boon.jpg; sourceTree = "<group>"; };
+		EC962F6F19BE933C009DFF14 /* boorish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boorish.jpg; sourceTree = "<group>"; };
+		EC962F7019BE933C009DFF14 /* bouillon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bouillon.jpg; sourceTree = "<group>"; };
+		EC962F7119BE933C009DFF14 /* bountiful.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bountiful.jpg; sourceTree = "<group>"; };
+		EC962F7219BE933C009DFF14 /* bourgeois.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bourgeois.jpg; sourceTree = "<group>"; };
+		EC962F7319BE933C009DFF14 /* bovine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bovine.jpg; sourceTree = "<group>"; };
+		EC962F7419BE933C009DFF14 /* bowdlerize.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bowdlerize.jpg; sourceTree = "<group>"; };
+		EC962F7519BE933C009DFF14 /* brackish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brackish.jpg; sourceTree = "<group>"; };
+		EC962F7619BE933C009DFF14 /* braggadocio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = braggadocio.jpg; sourceTree = "<group>"; };
+		EC962F7719BE933C009DFF14 /* braggart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = braggart.jpg; sourceTree = "<group>"; };
+		EC962F7819BE933C009DFF14 /* bravado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bravado.jpg; sourceTree = "<group>"; };
+		EC962F7919BE933C009DFF14 /* brawn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brawn.jpg; sourceTree = "<group>"; };
+		EC962F7A19BE933C009DFF14 /* brazen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brazen.jpg; sourceTree = "<group>"; };
+		EC962F7B19BE933C009DFF14 /* breach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = breach.jpg; sourceTree = "<group>"; };
+		EC962F7C19BE933C009DFF14 /* breadth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = breadth.jpg; sourceTree = "<group>"; };
+		EC962F7D19BE933C009DFF14 /* brevity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brevity.jpg; sourceTree = "<group>"; };
+		EC962F7E19BE933C009DFF14 /* brindled.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brindled.jpg; sourceTree = "<group>"; };
+		EC962F7F19BE933C009DFF14 /* bristling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bristling.jpg; sourceTree = "<group>"; };
+		EC962F8019BE933C009DFF14 /* brittle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brittle.jpg; sourceTree = "<group>"; };
+		EC962F8119BE933C009DFF14 /* broach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broach.jpg; sourceTree = "<group>"; };
+		EC962F8219BE933C009DFF14 /* brocade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brocade.jpg; sourceTree = "<group>"; };
+		EC962F8319BE933C009DFF14 /* brochure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brochure.jpg; sourceTree = "<group>"; };
+		EC962F8419BE933C009DFF14 /* brooch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brooch.jpg; sourceTree = "<group>"; };
+		EC962F8519BE933C009DFF14 /* brook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brook.jpg; sourceTree = "<group>"; };
+		EC962F8619BE933C009DFF14 /* browbeat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = browbeat.jpg; sourceTree = "<group>"; };
+		EC962F8719BE933C009DFF14 /* brusque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brusque.jpg; sourceTree = "<group>"; };
+		EC962F8819BE933C009DFF14 /* bucolic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bucolic.jpg; sourceTree = "<group>"; };
+		EC962F8919BE933C009DFF14 /* buffoonery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buffoonery.jpg; sourceTree = "<group>"; };
+		EC962F8A19BE933C009DFF14 /* bugaboo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bugaboo.jpg; sourceTree = "<group>"; };
+		EC962F8B19BE933C009DFF14 /* bullion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullion.jpg; sourceTree = "<group>"; };
+		EC962F8C19BE933C009DFF14 /* bulwark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bulwark.jpg; sourceTree = "<group>"; };
+		EC962F8D19BE933C009DFF14 /* bungle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bungle.jpg; sourceTree = "<group>"; };
+		EC962F8E19BE933C009DFF14 /* bureaucracy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bureaucracy.jpg; sourceTree = "<group>"; };
+		EC962F8F19BE933C009DFF14 /* burgeon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burgeon.jpg; sourceTree = "<group>"; };
+		EC962F9019BE933C009DFF14 /* burlesque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burlesque.jpg; sourceTree = "<group>"; };
+		EC962F9119BE933C009DFF14 /* burly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burly.jpg; sourceTree = "<group>"; };
+		EC962F9219BE933C009DFF14 /* burnish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burnish.jpg; sourceTree = "<group>"; };
+		EC962F9319BE933C009DFF14 /* buttress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buttress.jpg; sourceTree = "<group>"; };
+		EC962F9419BE933C009DFF14 /* buxom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buxom.jpg; sourceTree = "<group>"; };
+		ECA60202199AE1720065C687 /* 1-iPhone-5S-wallpaper-HD-landscapes-nature-photography-snow-mountain-27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-iPhone-5S-wallpaper-HD-landscapes-nature-photography-snow-mountain-27.jpg"; sourceTree = "<group>"; };
+		ECA60204199AE3000065C687 /* 2-red-yellow-flash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-red-yellow-flash.jpg"; sourceTree = "<group>"; };
+		ECA60206199AE8610065C687 /* flash2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flash2.jpg; sourceTree = "<group>"; };
+		ECA60208199AE8F50065C687 /* cancel50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel50.png; sourceTree = "<group>"; };
+		ECC1485E198B649A0023809A /* AFViewShaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFViewShaker.h; sourceTree = "<group>"; };
+		ECC1485F198B649A0023809A /* AFViewShaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFViewShaker.m; sourceTree = "<group>"; };
+		ECCB7633198AFCB900B70D63 /* MGFashionMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGFashionMenuView.h; sourceTree = "<group>"; };
+		ECCB7634198AFCB900B70D63 /* MGFashionMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGFashionMenuView.m; sourceTree = "<group>"; };
+		ECD26D7A1974C4CD00E6B429 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECD26D7C1974C4D600E6B429 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		ECD26D7E1974C4E300E6B429 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECF660B119A7FCDE005F83E6 /* TimeLineTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineTable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3ADB64196E14050038BB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1CE5851989C3F500A789B1 /* SystemConfiguration.framework in Frameworks */,
+				EC1CE5831989C3EB00A789B1 /* StoreKit.framework in Frameworks */,
+				EC1CE5811989C3E300A789B1 /* Security.framework in Frameworks */,
+				EC1CE57F1989C3D900A789B1 /* QuartzCore.framework in Frameworks */,
+				EC1CE57D1989C3CF00A789B1 /* MobileCoreServices.framework in Frameworks */,
+				EC1CE57B1989C3C500A789B1 /* libz.dylib in Frameworks */,
+				EC1CE5791989C3BB00A789B1 /* CoreLocation.framework in Frameworks */,
+				EC1CE5771989C3B400A789B1 /* CoreGraphics.framework in Frameworks */,
+				EC1CE5751989C3A500A789B1 /* AudioToolbox.framework in Frameworks */,
+				EC42E829197C5C1E00D23363 /* Foundation.framework in Frameworks */,
+				ECD26D7F1974C4E300E6B429 /* UIKit.framework in Frameworks */,
+				ECD26D7D1974C4D600E6B429 /* CFNetwork.framework in Frameworks */,
+				EC1CE5701989C33300A789B1 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3ADB79196E14050038BB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC14D832197635F40069230C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CE5841989C3F500A789B1 /* SystemConfiguration.framework */,
+				EC1CE5821989C3EB00A789B1 /* StoreKit.framework */,
+				EC1CE5801989C3E300A789B1 /* Security.framework */,
+				EC1CE57E1989C3D900A789B1 /* QuartzCore.framework */,
+				EC1CE57C1989C3CF00A789B1 /* MobileCoreServices.framework */,
+				EC1CE57A1989C3C500A789B1 /* libz.dylib */,
+				EC1CE5781989C3BB00A789B1 /* CoreLocation.framework */,
+				EC1CE5761989C3B400A789B1 /* CoreGraphics.framework */,
+				EC1CE5741989C3A500A789B1 /* AudioToolbox.framework */,
+				EC1CE56F1989C33300A789B1 /* Parse.framework */,
+				ECD26D7E1974C4E300E6B429 /* UIKit.framework */,
+				ECD26D7C1974C4D600E6B429 /* CFNetwork.framework */,
+				ECD26D7A1974C4CD00E6B429 /* Foundation.framework */,
+				EC14D833197635F40069230C /* AcousticModelEnglish.bundle */,
+				EC14D834197635F40069230C /* AcousticModelSpanish.bundle */,
+				EC14D835197635F40069230C /* OpenEars.framework */,
+				EC14D836197635F40069230C /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		EC1CE5661989B64F00A789B1 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				EC35E956196F9FF000CB084F /* QuizMaker.h */,
+				EC35E957196F9FF000CB084F /* QuizMaker.swift */,
+				EC35E959196FA04100CB084F /* selectSetForQuiz.swift */,
+				EC35E95B1970626100CB084F /* QuizTaker.swift */,
+				EC35E95D19707BE900CB084F /* quizResult.swift */,
+			);
+			name = Quiz;
+			sourceTree = "<group>";
+		};
+		EC1CE5671989B66000A789B1 /* Difficult Words  */ = {
+			isa = PBXGroup;
+			children = (
+				EC35E950196F4FD500CB084F /* difficultWordsTable.swift */,
+				EC35E952196F56EC00CB084F /* fromDifficultWords.swift */,
+			);
+			name = "Difficult Words ";
+			sourceTree = "<group>";
+		};
+		EC1CE5681989B67100A789B1 /* Search View */ = {
+			isa = PBXGroup;
+			children = (
+				EC35E94D196F3A4000CB084F /* searchViewNib.xib */,
+				EC35E94C196F3A4000CB084F /* searchResultTableViewCell.swift */,
+				EC35E94A196F31F000CB084F /* searchView.swift */,
+			);
+			name = "Search View";
+			sourceTree = "<group>";
+		};
+		EC1CE5691989B67F00A789B1 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				EC35E954196F896900CB084F /* progressView.swift */,
+			);
+			name = Progress;
+			sourceTree = "<group>";
+		};
+		EC1CE56A1989B68900A789B1 /* All Words View */ = {
+			isa = PBXGroup;
+			children = (
+				EC3ADB90196E5D3F0038BB0D /* Trial.swift */,
+			);
+			name = "All Words View";
+			sourceTree = "<group>";
+		};
+		EC1CE56B1989B69400A789B1 /* FlashCards View */ = {
+			isa = PBXGroup;
+			children = (
+				EC35E948196E72B800CB084F /* FlashCards.swift */,
+			);
+			name = "FlashCards View";
+			sourceTree = "<group>";
+		};
+		EC1CE56C1989B6A900A789B1 /* Data Manager / Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC3ADB8E196E150B0038BB0D /* DataManager.swift */,
+				EC7D74D319A005CE002ECEFF /* Reachability.h */,
+				EC7D74D419A005CE002ECEFF /* Reachability.m */,
+				EC3ADB6E196E14050038BB0D /* FlashCard.xcdatamodeld */,
+				EC3ADB8C196E14F40038BB0D /* allWords.txt */,
+			);
+			name = "Data Manager / Core Data Model";
+			sourceTree = "<group>";
+		};
+		EC3ADB5E196E14050038BB0D = {
+			isa = PBXGroup;
+			children = (
+				ECA6020A199AE9110065C687 /* Images */,
+				EC3ADB69196E14050038BB0D /* FlashCard */,
+				ECFE6FD81970C22700697A3C /* Unwanted Files */,
+				EC3ADB7F196E14050038BB0D /* FlashCardTests */,
+				EC3ADB68196E14050038BB0D /* Products */,
+				EC14D832197635F40069230C /* Framework */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3ADB68196E14050038BB0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3ADB67196E14050038BB0D /* FlashCard.app */,
+				EC3ADB7C196E14050038BB0D /* FlashCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3ADB69196E14050038BB0D /* FlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CE5711989C35500A789B1 /* FlashCard-Bridging-Header.h */,
+				EC3ADB6C196E14050038BB0D /* AppDelegate.swift */,
+				EC3ADB73196E14050038BB0D /* Main.storyboard */,
+				EC53E606198DCB68003C41EB /* FlashTweet */,
+				EC53E603198DCA3F003C41EB /* LogIn/SignUp */,
+				EC1CE5691989B67F00A789B1 /* Progress */,
+				EC1CE56A1989B68900A789B1 /* All Words View */,
+				EC1CE56B1989B69400A789B1 /* FlashCards View */,
+				EC1CE5681989B67100A789B1 /* Search View */,
+				EC1CE5671989B66000A789B1 /* Difficult Words  */,
+				EC1CE5661989B64F00A789B1 /* Quiz */,
+				EC1CE56C1989B6A900A789B1 /* Data Manager / Core Data Model */,
+				EC3ADB6A196E14050038BB0D /* Supporting Files */,
+				ECC14861198B649E0023809A /* AFViewShaker */,
+				ECCB7636198AFCBE00B70D63 /* MGFashinMenuView */,
+				EC83A47519BCF58F00FCBE92 /* SideMenu */,
+				EC51FC041982264F00E1F26E /* GoogleWearAlertView */,
+				EC3ADB76196E14050038BB0D /* Images.xcassets */,
+			);
+			path = FlashCard;
+			sourceTree = "<group>";
+		};
+		EC3ADB6A196E14050038BB0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3ADB92196E5D6A0038BB0D /* AddEffect.swift */,
+				EC3ADB6B196E14050038BB0D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC3ADB7F196E14050038BB0D /* FlashCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3ADB82196E14050038BB0D /* FlashCardTests.swift */,
+				EC3ADB80196E14050038BB0D /* Supporting Files */,
+			);
+			path = FlashCardTests;
+			sourceTree = "<group>";
+		};
+		EC3ADB80196E14050038BB0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3ADB81196E14050038BB0D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC51FC041982264F00E1F26E /* GoogleWearAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				EC51FC061982267200E1F26E /* GoogleWearAlert.swift */,
+				EC51FC071982267200E1F26E /* GoogleWearAlertView.swift */,
+				EC51FC051982265E00E1F26E /* Resources */,
+			);
+			name = GoogleWearAlertView;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EC51FC051982265E00E1F26E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC51FC0A1982267E00E1F26E /* errorIcon@2x.png */,
+				EC51FC0B1982267E00E1F26E /* messageIcon@2x.png */,
+				EC51FC0C1982267E00E1F26E /* successIcon@2x.png */,
+				EC51FC0D1982267E00E1F26E /* warningIcon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EC53E603198DCA3F003C41EB /* LogIn/SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CE56D1989BB6C00A789B1 /* SignIn.swift */,
+				EC1CE5861989CA1700A789B1 /* SignUp.swift */,
+			);
+			name = LogIn/SignUp;
+			sourceTree = "<group>";
+		};
+		EC53E606198DCB68003C41EB /* FlashTweet */ = {
+			isa = PBXGroup;
+			children = (
+				ECF660B119A7FCDE005F83E6 /* TimeLineTable.swift */,
+				EC53E604198DCB17003C41EB /* ComposeViewController.swift */,
+				EC53E607198DE569003C41EB /* SweetTableViewCell.swift */,
+			);
+			name = FlashTweet;
+			sourceTree = "<group>";
+		};
+		EC83A47519BCF58F00FCBE92 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EC83A47119BCF58700FCBE92 /* SideMenu.swift */,
+				EC83A47219BCF58700FCBE92 /* MenuTableViewController.swift */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
+		ECA6020A199AE9110065C687 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ECA60202199AE1720065C687 /* 1-iPhone-5S-wallpaper-HD-landscapes-nature-photography-snow-mountain-27.jpg */,
+				ECA60204199AE3000065C687 /* 2-red-yellow-flash.jpg */,
+				ECA60206199AE8610065C687 /* flash2.jpg */,
+				ECA60208199AE8F50065C687 /* cancel50.png */,
+				EC962F1019BE933B009DFF14 /* babble.jpg */,
+				EC962F1119BE933B009DFF14 /* bacchanalian.jpg */,
+				EC962F1219BE933B009DFF14 /* badger.jpg */,
+				EC962F1319BE933B009DFF14 /* badinage.jpg */,
+				EC962F1419BE933B009DFF14 /* baffle.jpg */,
+				EC962F1519BE933B009DFF14 /* bait.jpg */,
+				EC962F1619BE933B009DFF14 /* baleful.jpg */,
+				EC962F1719BE933B009DFF14 /* balk.jpg */,
+				EC962F1819BE933B009DFF14 /* ballast.jpg */,
+				EC962F1919BE933B009DFF14 /* balm.jpg */,
+				EC962F1A19BE933B009DFF14 /* balmy.jpg */,
+				EC962F1B19BE933B009DFF14 /* banal.jpg */,
+				EC962F1C19BE933B009DFF14 /* bandy.jpg */,
+				EC962F1D19BE933B009DFF14 /* bane.jpg */,
+				EC962F1E19BE933B009DFF14 /* bantering.jpg */,
+				EC962F1F19BE933B009DFF14 /* barb.jpg */,
+				EC962F2019BE933B009DFF14 /* bard.jpg */,
+				EC962F2119BE933B009DFF14 /* barefaced.jpg */,
+				EC962F2219BE933B009DFF14 /* baroque.jpg */,
+				EC962F2319BE933B009DFF14 /* barrage.jpg */,
+				EC962F2419BE933B009DFF14 /* barrister.jpg */,
+				EC962F2519BE933B009DFF14 /* barterer.jpg */,
+				EC962F2619BE933B009DFF14 /* bask.jpg */,
+				EC962F2719BE933B009DFF14 /* bastion.jpg */,
+				EC962F2819BE933B009DFF14 /* bate.jpg */,
+				EC962F2919BE933B009DFF14 /* bauble.jpg */,
+				EC962F2A19BE933B009DFF14 /* bawdy.jpg */,
+				EC962F2B19BE933B009DFF14 /* beatific.jpg */,
+				EC962F2C19BE933B009DFF14 /* beatitude.jpg */,
+				EC962F2D19BE933C009DFF14 /* bedizen.jpg */,
+				EC962F2E19BE933C009DFF14 /* bedraggle.jpg */,
+				EC962F2F19BE933C009DFF14 /* befuddle.jpg */,
+				EC962F3019BE933C009DFF14 /* beget.jpg */,
+				EC962F3119BE933C009DFF14 /* begrudge.jpg */,
+				EC962F3219BE933C009DFF14 /* beguile.jpg */,
+				EC962F3319BE933C009DFF14 /* behemoth.jpg */,
+				EC962F3419BE933C009DFF14 /* beholden.jpg */,
+				EC962F3519BE933C009DFF14 /* behoove.jpg */,
+				EC962F3619BE933C009DFF14 /* belabor.jpg */,
+				EC962F3719BE933C009DFF14 /* belated.jpg */,
+				EC962F3819BE933C009DFF14 /* beleaguer.jpg */,
+				EC962F3919BE933C009DFF14 /* belie.jpg */,
+				EC962F3A19BE933C009DFF14 /* belittle.jpg */,
+				EC962F3B19BE933C009DFF14 /* bellicose.jpg */,
+				EC962F3C19BE933C009DFF14 /* belligerent.jpg */,
+				EC962F3D19BE933C009DFF14 /* bemused.jpg */,
+				EC962F3E19BE933C009DFF14 /* benediction.jpg */,
+				EC962F3F19BE933C009DFF14 /* benefactor.jpg */,
+				EC962F4019BE933C009DFF14 /* beneficiary.jpg */,
+				EC962F4119BE933C009DFF14 /* beneficient.jpg */,
+				EC962F4219BE933C009DFF14 /* benevolent.jpg */,
+				EC962F4319BE933C009DFF14 /* benign.jpg */,
+				EC962F4419BE933C009DFF14 /* benison.jpg */,
+				EC962F4519BE933C009DFF14 /* bent.jpg */,
+				EC962F4619BE933C009DFF14 /* bequeath.jpg */,
+				EC962F4719BE933C009DFF14 /* berate.jpg */,
+				EC962F4819BE933C009DFF14 /* bereavement.jpg */,
+				EC962F4919BE933C009DFF14 /* bereft.jpg */,
+				EC962F4A19BE933C009DFF14 /* berserk.jpg */,
+				EC962F4B19BE933C009DFF14 /* beset.jpg */,
+				EC962F4C19BE933C009DFF14 /* besmirch.jpg */,
+				EC962F4D19BE933C009DFF14 /* bestial.jpg */,
+				EC962F4E19BE933C009DFF14 /* bestow.jpg */,
+				EC962F4F19BE933C009DFF14 /* betroth.jpg */,
+				EC962F5019BE933C009DFF14 /* bevy.jpg */,
+				EC962F5119BE933C009DFF14 /* bicameral.jpg */,
+				EC962F5219BE933C009DFF14 /* bicker.jpg */,
+				EC962F5319BE933C009DFF14 /* biennial.jpg */,
+				EC962F5419BE933C009DFF14 /* bifurcated.jpg */,
+				EC962F5519BE933C009DFF14 /* bigotry.jpg */,
+				EC962F5619BE933C009DFF14 /* bilious.jpg */,
+				EC962F5719BE933C009DFF14 /* bilk.jpg */,
+				EC962F5819BE933C009DFF14 /* bivouac.jpg */,
+				EC962F5919BE933C009DFF14 /* bizarre.jpg */,
+				EC962F5A19BE933C009DFF14 /* blanch.jpg */,
+				EC962F5B19BE933C009DFF14 /* bland.jpg */,
+				EC962F5C19BE933C009DFF14 /* blandishment.jpg */,
+				EC962F5D19BE933C009DFF14 /* blase.jpg */,
+				EC962F5E19BE933C009DFF14 /* blasphemous.jpg */,
+				EC962F5F19BE933C009DFF14 /* blatant.jpg */,
+				EC962F6019BE933C009DFF14 /* bleak.jpg */,
+				EC962F6119BE933C009DFF14 /* blighted.jpg */,
+				EC962F6219BE933C009DFF14 /* blithe.jpg */,
+				EC962F6319BE933C009DFF14 /* bloated.jpg */,
+				EC962F6419BE933C009DFF14 /* blowhard.jpg */,
+				EC962F6519BE933C009DFF14 /* bludgeon.jpg */,
+				EC962F6619BE933C009DFF14 /* bluff.jpg */,
+				EC962F6719BE933C009DFF14 /* blunder.jpg */,
+				EC962F6819BE933C009DFF14 /* blurt.jpg */,
+				EC962F6919BE933C009DFF14 /* bode.jpg */,
+				EC962F6A19BE933C009DFF14 /* bogus.jpg */,
+				EC962F6B19BE933C009DFF14 /* boisterous.jpg */,
+				EC962F6C19BE933C009DFF14 /* bolster.jpg */,
+				EC962F6D19BE933C009DFF14 /* bombast.jpg */,
+				EC962F6E19BE933C009DFF14 /* boon.jpg */,
+				EC962F6F19BE933C009DFF14 /* boorish.jpg */,
+				EC962F7019BE933C009DFF14 /* bouillon.jpg */,
+				EC962F7119BE933C009DFF14 /* bountiful.jpg */,
+				EC962F7219BE933C009DFF14 /* bourgeois.jpg */,
+				EC962F7319BE933C009DFF14 /* bovine.jpg */,
+				EC962F7419BE933C009DFF14 /* bowdlerize.jpg */,
+				EC962F7519BE933C009DFF14 /* brackish.jpg */,
+				EC962F7619BE933C009DFF14 /* braggadocio.jpg */,
+				EC962F7719BE933C009DFF14 /* braggart.jpg */,
+				EC962F7819BE933C009DFF14 /* bravado.jpg */,
+				EC962F7919BE933C009DFF14 /* brawn.jpg */,
+				EC962F7A19BE933C009DFF14 /* brazen.jpg */,
+				EC962F7B19BE933C009DFF14 /* breach.jpg */,
+				EC962F7C19BE933C009DFF14 /* breadth.jpg */,
+				EC962F7D19BE933C009DFF14 /* brevity.jpg */,
+				EC962F7E19BE933C009DFF14 /* brindled.jpg */,
+				EC962F7F19BE933C009DFF14 /* bristling.jpg */,
+				EC962F8019BE933C009DFF14 /* brittle.jpg */,
+				EC962F8119BE933C009DFF14 /* broach.jpg */,
+				EC962F8219BE933C009DFF14 /* brocade.jpg */,
+				EC962F8319BE933C009DFF14 /* brochure.jpg */,
+				EC962F8419BE933C009DFF14 /* brooch.jpg */,
+				EC962F8519BE933C009DFF14 /* brook.jpg */,
+				EC962F8619BE933C009DFF14 /* browbeat.jpg */,
+				EC962F8719BE933C009DFF14 /* brusque.jpg */,
+				EC962F8819BE933C009DFF14 /* bucolic.jpg */,
+				EC962F8919BE933C009DFF14 /* buffoonery.jpg */,
+				EC962F8A19BE933C009DFF14 /* bugaboo.jpg */,
+				EC962F8B19BE933C009DFF14 /* bullion.jpg */,
+				EC962F8C19BE933C009DFF14 /* bulwark.jpg */,
+				EC962F8D19BE933C009DFF14 /* bungle.jpg */,
+				EC962F8E19BE933C009DFF14 /* bureaucracy.jpg */,
+				EC962F8F19BE933C009DFF14 /* burgeon.jpg */,
+				EC962F9019BE933C009DFF14 /* burlesque.jpg */,
+				EC962F9119BE933C009DFF14 /* burly.jpg */,
+				EC962F9219BE933C009DFF14 /* burnish.jpg */,
+				EC962F9319BE933C009DFF14 /* buttress.jpg */,
+				EC962F9419BE933C009DFF14 /* buxom.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		ECC14861198B649E0023809A /* AFViewShaker */ = {
+			isa = PBXGroup;
+			children = (
+				ECC1485E198B649A0023809A /* AFViewShaker.h */,
+				ECC1485F198B649A0023809A /* AFViewShaker.m */,
+			);
+			name = AFViewShaker;
+			sourceTree = "<group>";
+		};
+		ECCB7636198AFCBE00B70D63 /* MGFashinMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				ECCB7633198AFCB900B70D63 /* MGFashionMenuView.h */,
+				ECCB7634198AFCB900B70D63 /* MGFashionMenuView.m */,
+			);
+			name = MGFashinMenuView;
+			sourceTree = "<group>";
+		};
+		ECFE6FD81970C22700697A3C /* Unwanted Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Unwanted Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3ADB66196E14050038BB0D /* FlashCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3ADB86196E14050038BB0D /* Build configuration list for PBXNativeTarget "FlashCard" */;
+			buildPhases = (
+				EC3ADB63196E14050038BB0D /* Sources */,
+				EC3ADB64196E14050038BB0D /* Frameworks */,
+				EC3ADB65196E14050038BB0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashCard;
+			productName = FlashCard;
+			productReference = EC3ADB67196E14050038BB0D /* FlashCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC3ADB7B196E14050038BB0D /* FlashCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3ADB89196E14050038BB0D /* Build configuration list for PBXNativeTarget "FlashCardTests" */;
+			buildPhases = (
+				EC3ADB78196E14050038BB0D /* Sources */,
+				EC3ADB79196E14050038BB0D /* Frameworks */,
+				EC3ADB7A196E14050038BB0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3ADB7E196E14050038BB0D /* PBXTargetDependency */,
+			);
+			name = FlashCardTests;
+			productName = FlashCardTests;
+			productReference = EC3ADB7C196E14050038BB0D /* FlashCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3ADB5F196E14050038BB0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Rikin;
+				TargetAttributes = {
+					EC3ADB66196E14050038BB0D = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 3G34342D42;
+					};
+					EC3ADB7B196E14050038BB0D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EC3ADB66196E14050038BB0D;
+					};
+				};
+			};
+			buildConfigurationList = EC3ADB62196E14050038BB0D /* Build configuration list for PBXProject "FlashCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC3ADB5E196E14050038BB0D;
+			productRefGroup = EC3ADB68196E14050038BB0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3ADB66196E14050038BB0D /* FlashCard */,
+				EC3ADB7B196E14050038BB0D /* FlashCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3ADB65196E14050038BB0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC35E94F196F3A4000CB084F /* searchViewNib.xib in Resources */,
+				EC962FDE19BE933C009DFF14 /* bizarre.jpg in Resources */,
+				EC962FF219BE933C009DFF14 /* bombast.jpg in Resources */,
+				EC14D838197635F40069230C /* AcousticModelSpanish.bundle in Resources */,
+				EC962FF619BE933C009DFF14 /* bountiful.jpg in Resources */,
+				EC962FC819BE933C009DFF14 /* benign.jpg in Resources */,
+				EC96301219BE933C009DFF14 /* bungle.jpg in Resources */,
+				EC962FB519BE933C009DFF14 /* beget.jpg in Resources */,
+				EC962FBF19BE933C009DFF14 /* belittle.jpg in Resources */,
+				EC962F9819BE933C009DFF14 /* badinage.jpg in Resources */,
+				ECA60209199AE8F50065C687 /* cancel50.png in Resources */,
+				EC96301919BE933C009DFF14 /* buxom.jpg in Resources */,
+				EC962FA819BE933C009DFF14 /* barrage.jpg in Resources */,
+				EC962FCB19BE933C009DFF14 /* bequeath.jpg in Resources */,
+				EC962FD819BE933C009DFF14 /* biennial.jpg in Resources */,
+				EC51FC111982267E00E1F26E /* warningIcon@2x.png in Resources */,
+				EC962FB919BE933C009DFF14 /* beholden.jpg in Resources */,
+				EC96300C19BE933C009DFF14 /* brusque.jpg in Resources */,
+				EC962FF319BE933C009DFF14 /* boon.jpg in Resources */,
+				EC962FAC19BE933C009DFF14 /* bastion.jpg in Resources */,
+				EC962FD619BE933C009DFF14 /* bicameral.jpg in Resources */,
+				EC962FB719BE933C009DFF14 /* beguile.jpg in Resources */,
+				EC96300E19BE933C009DFF14 /* buffoonery.jpg in Resources */,
+				EC962FCA19BE933C009DFF14 /* bent.jpg in Resources */,
+				EC96300D19BE933C009DFF14 /* bucolic.jpg in Resources */,
+				EC962FEE19BE933C009DFF14 /* bode.jpg in Resources */,
+				EC962F9619BE933C009DFF14 /* bacchanalian.jpg in Resources */,
+				EC962FD319BE933C009DFF14 /* bestow.jpg in Resources */,
+				EC962F9519BE933C009DFF14 /* babble.jpg in Resources */,
+				EC96301719BE933C009DFF14 /* burnish.jpg in Resources */,
+				EC962F9F19BE933C009DFF14 /* balmy.jpg in Resources */,
+				EC962FD419BE933C009DFF14 /* betroth.jpg in Resources */,
+				EC962FFD19BE933C009DFF14 /* bravado.jpg in Resources */,
+				EC962FEF19BE933C009DFF14 /* bogus.jpg in Resources */,
+				EC962FEC19BE933C009DFF14 /* blunder.jpg in Resources */,
+				EC962FED19BE933C009DFF14 /* blurt.jpg in Resources */,
+				EC96301519BE933C009DFF14 /* burlesque.jpg in Resources */,
+				EC962FD119BE933C009DFF14 /* besmirch.jpg in Resources */,
+				EC96300119BE933C009DFF14 /* breadth.jpg in Resources */,
+				EC51FC0E1982267E00E1F26E /* errorIcon@2x.png in Resources */,
+				EC96301619BE933C009DFF14 /* burly.jpg in Resources */,
+				EC962FC219BE933C009DFF14 /* bemused.jpg in Resources */,
+				EC96301419BE933C009DFF14 /* burgeon.jpg in Resources */,
+				EC962FB219BE933C009DFF14 /* bedizen.jpg in Resources */,
+				EC962FCD19BE933C009DFF14 /* bereavement.jpg in Resources */,
+				EC962FA619BE933C009DFF14 /* barefaced.jpg in Resources */,
+				EC962FC119BE933C009DFF14 /* belligerent.jpg in Resources */,
+				EC962FA119BE933C009DFF14 /* bandy.jpg in Resources */,
+				EC962FE719BE933C009DFF14 /* blithe.jpg in Resources */,
+				EC962FF719BE933C009DFF14 /* bourgeois.jpg in Resources */,
+				EC962FFC19BE933C009DFF14 /* braggart.jpg in Resources */,
+				EC962FEA19BE933C009DFF14 /* bludgeon.jpg in Resources */,
+				EC96300719BE933C009DFF14 /* brocade.jpg in Resources */,
+				EC962FDF19BE933C009DFF14 /* blanch.jpg in Resources */,
+				EC962FC519BE933C009DFF14 /* beneficiary.jpg in Resources */,
+				EC962FDA19BE933C009DFF14 /* bigotry.jpg in Resources */,
+				EC962FAB19BE933C009DFF14 /* bask.jpg in Resources */,
+				EC962FFB19BE933C009DFF14 /* braggadocio.jpg in Resources */,
+				EC962FE419BE933C009DFF14 /* blatant.jpg in Resources */,
+				EC96300519BE933C009DFF14 /* brittle.jpg in Resources */,
+				EC962FB619BE933C009DFF14 /* begrudge.jpg in Resources */,
+				EC962FD519BE933C009DFF14 /* bevy.jpg in Resources */,
+				EC962FC919BE933C009DFF14 /* benison.jpg in Resources */,
+				EC962F9919BE933C009DFF14 /* baffle.jpg in Resources */,
+				EC962FD019BE933C009DFF14 /* beset.jpg in Resources */,
+				EC962FB419BE933C009DFF14 /* befuddle.jpg in Resources */,
+				EC962FDD19BE933C009DFF14 /* bivouac.jpg in Resources */,
+				EC96300419BE933C009DFF14 /* bristling.jpg in Resources */,
+				EC96300919BE933C009DFF14 /* brooch.jpg in Resources */,
+				EC3ADB75196E14050038BB0D /* Main.storyboard in Resources */,
+				EC962F9B19BE933C009DFF14 /* baleful.jpg in Resources */,
+				EC962FF019BE933C009DFF14 /* boisterous.jpg in Resources */,
+				EC962FBC19BE933C009DFF14 /* belated.jpg in Resources */,
+				ECA60207199AE8610065C687 /* flash2.jpg in Resources */,
+				EC96301819BE933C009DFF14 /* buttress.jpg in Resources */,
+				EC962FC719BE933C009DFF14 /* benevolent.jpg in Resources */,
+				EC962FB119BE933C009DFF14 /* beatitude.jpg in Resources */,
+				EC962FBB19BE933C009DFF14 /* belabor.jpg in Resources */,
+				EC962F9D19BE933C009DFF14 /* ballast.jpg in Resources */,
+				EC962F9A19BE933C009DFF14 /* bait.jpg in Resources */,
+				EC962FCC19BE933C009DFF14 /* berate.jpg in Resources */,
+				EC962FDB19BE933C009DFF14 /* bilious.jpg in Resources */,
+				EC962FDC19BE933C009DFF14 /* bilk.jpg in Resources */,
+				EC962FFF19BE933C009DFF14 /* brazen.jpg in Resources */,
+				EC962FC419BE933C009DFF14 /* benefactor.jpg in Resources */,
+				EC96300319BE933C009DFF14 /* brindled.jpg in Resources */,
+				EC962FD919BE933C009DFF14 /* bifurcated.jpg in Resources */,
+				EC962FA919BE933C009DFF14 /* barrister.jpg in Resources */,
+				EC962FA419BE933C009DFF14 /* barb.jpg in Resources */,
+				EC96300F19BE933C009DFF14 /* bugaboo.jpg in Resources */,
+				EC3ADB8D196E14F40038BB0D /* allWords.txt in Resources */,
+				EC96300019BE933C009DFF14 /* breach.jpg in Resources */,
+				EC962FD219BE933C009DFF14 /* bestial.jpg in Resources */,
+				EC962FE219BE933C009DFF14 /* blase.jpg in Resources */,
+				EC962FBA19BE933C009DFF14 /* behoove.jpg in Resources */,
+				EC962FC019BE933C009DFF14 /* bellicose.jpg in Resources */,
+				EC962FE319BE933C009DFF14 /* blasphemous.jpg in Resources */,
+				EC962FBE19BE933C009DFF14 /* belie.jpg in Resources */,
+				EC962FA519BE933C009DFF14 /* bard.jpg in Resources */,
+				EC962FBD19BE933C009DFF14 /* beleaguer.jpg in Resources */,
+				EC962FFA19BE933C009DFF14 /* brackish.jpg in Resources */,
+				EC962FCE19BE933C009DFF14 /* bereft.jpg in Resources */,
+				EC51FC0F1982267E00E1F26E /* messageIcon@2x.png in Resources */,
+				EC96300219BE933C009DFF14 /* brevity.jpg in Resources */,
+				EC962F9719BE933C009DFF14 /* badger.jpg in Resources */,
+				EC962FF519BE933C009DFF14 /* bouillon.jpg in Resources */,
+				EC962FF819BE933C009DFF14 /* bovine.jpg in Resources */,
+				EC962FA719BE933C009DFF14 /* baroque.jpg in Resources */,
+				EC14D837197635F40069230C /* AcousticModelEnglish.bundle in Resources */,
+				EC962FAF19BE933C009DFF14 /* bawdy.jpg in Resources */,
+				EC962FE919BE933C009DFF14 /* blowhard.jpg in Resources */,
+				EC962FB319BE933C009DFF14 /* bedraggle.jpg in Resources */,
+				EC962FCF19BE933C009DFF14 /* berserk.jpg in Resources */,
+				EC962FAE19BE933C009DFF14 /* bauble.jpg in Resources */,
+				EC962FE819BE933C009DFF14 /* bloated.jpg in Resources */,
+				EC962F9C19BE933C009DFF14 /* balk.jpg in Resources */,
+				EC96300B19BE933C009DFF14 /* browbeat.jpg in Resources */,
+				EC962F9E19BE933C009DFF14 /* balm.jpg in Resources */,
+				EC96300619BE933C009DFF14 /* broach.jpg in Resources */,
+				EC962FC319BE933C009DFF14 /* benediction.jpg in Resources */,
+				EC962FFE19BE933C009DFF14 /* brawn.jpg in Resources */,
+				EC962FB019BE933C009DFF14 /* beatific.jpg in Resources */,
+				EC51FC101982267E00E1F26E /* successIcon@2x.png in Resources */,
+				EC962FAD19BE933C009DFF14 /* bate.jpg in Resources */,
+				EC962FE119BE933C009DFF14 /* blandishment.jpg in Resources */,
+				EC96300A19BE933C009DFF14 /* brook.jpg in Resources */,
+				EC962FF419BE933C009DFF14 /* boorish.jpg in Resources */,
+				ECA60203199AE1720065C687 /* 1-iPhone-5S-wallpaper-HD-landscapes-nature-photography-snow-mountain-27.jpg in Resources */,
+				EC962FAA19BE933C009DFF14 /* barterer.jpg in Resources */,
+				EC962FF119BE933C009DFF14 /* bolster.jpg in Resources */,
+				EC3ADB77196E14050038BB0D /* Images.xcassets in Resources */,
+				EC962FC619BE933C009DFF14 /* beneficient.jpg in Resources */,
+				EC962FE019BE933C009DFF14 /* bland.jpg in Resources */,
+				EC962FB819BE933C009DFF14 /* behemoth.jpg in Resources */,
+				EC96301119BE933C009DFF14 /* bulwark.jpg in Resources */,
+				EC962FE519BE933C009DFF14 /* bleak.jpg in Resources */,
+				EC96301319BE933C009DFF14 /* bureaucracy.jpg in Resources */,
+				EC962FA219BE933C009DFF14 /* bane.jpg in Resources */,
+				EC96301019BE933C009DFF14 /* bullion.jpg in Resources */,
+				EC962FA319BE933C009DFF14 /* bantering.jpg in Resources */,
+				EC962FA019BE933C009DFF14 /* banal.jpg in Resources */,
+				EC962FEB19BE933C009DFF14 /* bluff.jpg in Resources */,
+				EC96300819BE933C009DFF14 /* brochure.jpg in Resources */,
+				EC962FD719BE933C009DFF14 /* bicker.jpg in Resources */,
+				EC962FE619BE933C009DFF14 /* blighted.jpg in Resources */,
+				ECA60205199AE3000065C687 /* 2-red-yellow-flash.jpg in Resources */,
+				EC962FF919BE933C009DFF14 /* bowdlerize.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3ADB7A196E14050038BB0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3ADB63196E14050038BB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7D74D519A005CE002ECEFF /* Reachability.m in Sources */,
+				EC35E953196F56EC00CB084F /* fromDifficultWords.swift in Sources */,
+				EC3ADB91196E5D3F0038BB0D /* Trial.swift in Sources */,
+				EC83A47319BCF58700FCBE92 /* SideMenu.swift in Sources */,
+				EC53E605198DCB17003C41EB /* ComposeViewController.swift in Sources */,
+				ECC14860198B649A0023809A /* AFViewShaker.m in Sources */,
+				EC35E95E19707BE900CB084F /* quizResult.swift in Sources */,
+				EC53E608198DE56A003C41EB /* SweetTableViewCell.swift in Sources */,
+				EC3ADB93196E5D6A0038BB0D /* AddEffect.swift in Sources */,
+				ECF660B219A7FCDE005F83E6 /* TimeLineTable.swift in Sources */,
+				EC51FC091982267200E1F26E /* GoogleWearAlertView.swift in Sources */,
+				EC35E958196F9FF000CB084F /* QuizMaker.swift in Sources */,
+				EC51FC081982267200E1F26E /* GoogleWearAlert.swift in Sources */,
+				EC35E95A196FA04100CB084F /* selectSetForQuiz.swift in Sources */,
+				EC1CE5871989CA1700A789B1 /* SignUp.swift in Sources */,
+				EC35E949196E72B800CB084F /* FlashCards.swift in Sources */,
+				EC1CE56E1989BB6C00A789B1 /* SignIn.swift in Sources */,
+				EC35E955196F896900CB084F /* progressView.swift in Sources */,
+				EC35E94B196F31F000CB084F /* searchView.swift in Sources */,
+				EC35E94E196F3A4000CB084F /* searchResultTableViewCell.swift in Sources */,
+				EC3ADB8F196E150B0038BB0D /* DataManager.swift in Sources */,
+				EC3ADB70196E14050038BB0D /* FlashCard.xcdatamodeld in Sources */,
+				EC3ADB6D196E14050038BB0D /* AppDelegate.swift in Sources */,
+				EC35E95C1970626100CB084F /* QuizTaker.swift in Sources */,
+				ECCB7635198AFCB900B70D63 /* MGFashionMenuView.m in Sources */,
+				EC83A47419BCF58700FCBE92 /* MenuTableViewController.swift in Sources */,
+				EC35E951196F4FD500CB084F /* difficultWordsTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3ADB78196E14050038BB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3ADB83196E14050038BB0D /* FlashCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC3ADB7E196E14050038BB0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3ADB66196E14050038BB0D /* FlashCard */;
+			targetProxy = EC3ADB7D196E14050038BB0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC3ADB73196E14050038BB0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3ADB74196E14050038BB0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3ADB84196E14050038BB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rikin Desai (QSJMGFCPYX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rikin Desai (QSJMGFCPYX)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9C63B7FD-551D-4A45-BE17-53612ECBD391";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC3ADB85196E14050038BB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rikin Desai (QSJMGFCPYX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rikin Desai (QSJMGFCPYX)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "9C63B7FD-551D-4A45-BE17-53612ECBD391";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3ADB87196E14050038BB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rikin Desai (QSJMGFCPYX)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = FlashCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9C63B7FD-551D-4A45-BE17-53612ECBD391";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlashCard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC3ADB88196E14050038BB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rikin Desai (QSJMGFCPYX)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = FlashCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9C63B7FD-551D-4A45-BE17-53612ECBD391";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlashCard-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EC3ADB8A196E14050038BB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlashCard.app/FlashCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EC3ADB8B196E14050038BB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlashCard.app/FlashCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3ADB62196E14050038BB0D /* Build configuration list for PBXProject "FlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3ADB84196E14050038BB0D /* Debug */,
+				EC3ADB85196E14050038BB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3ADB86196E14050038BB0D /* Build configuration list for PBXNativeTarget "FlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3ADB87196E14050038BB0D /* Debug */,
+				EC3ADB88196E14050038BB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3ADB89196E14050038BB0D /* Build configuration list for PBXNativeTarget "FlashCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3ADB8A196E14050038BB0D /* Debug */,
+				EC3ADB8B196E14050038BB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC3ADB6E196E14050038BB0D /* FlashCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC3ADB6F196E14050038BB0D /* FlashCard.xcdatamodel */,
+			);
+			currentVersion = EC3ADB6F196E14050038BB0D /* FlashCard.xcdatamodel */;
+			path = FlashCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC3ADB5F196E14050038BB0D /* Project object */;
+}
